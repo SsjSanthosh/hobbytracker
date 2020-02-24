@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://dex:super2409@cluster0-l8xrn.mongodb.net/devconnect?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://dextrous:super2409@cluster0-zudrd.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "tippytoesintheair"
 }

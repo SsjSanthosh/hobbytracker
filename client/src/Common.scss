@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+button.btn {
+  padding: 1rem 2.5rem;
+  margin: 1rem;
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: 15px;
+
+  cursor: pointer;
+  color: white;
+  border-radius: 3px;
+  transition: all 0.4s;
+  &:hover {
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+  }
+}
+
+input,
+select {
+  padding: 1rem 2rem;
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid #111;
+}
+
+.utc {
+  text-align: center;
+}
+
+a,
+a:visited,
+a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}

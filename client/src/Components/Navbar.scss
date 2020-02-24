@@ -1,0 +1,25 @@
+.Navbar {
+  border-bottom: 1px solid white;
+  margin: 0;
+  padding: 0;
+
+  .Navbar-nav {
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    .Navbar-list {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      .Navbar-item {
+        padding: 0 2rem;
+
+        cursor: pointer;
+        &:hover {
+          background-color: white;
+          color: black;
+        }
+      }
+    }
+  }
+}
